@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TransformationsPage = ({ params: { id } }) => {
+const TransformationsPage = ({ params: { id } }: SearchParamProps) => {
   return (
     <div>TransformationsPage {id}</div>
   )
