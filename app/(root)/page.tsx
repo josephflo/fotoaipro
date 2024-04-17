@@ -13,7 +13,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
     <>
       <section className="home">
         <h1 className="home-heading">
-          Unleash Your Creatuve Vision with ImageAIPro
+          Expand Your Creative Vision with ImagicAI
         </h1>
 
         <ul className="flex-center w-full gap-20">
