@@ -13,9 +13,9 @@ const SideBar = () => {
   return (
     <aside className="sidebar">
       <div className="flex size-full flex-col gap-4">
-        <Link href={"/"} className="sidebar-logo">
+        <Link href={"/"} className="sidebar-logo lg:ml-6">
           <Image
-            src={"/assets/images/logo2-text.svg"}
+            src={"/logo.png"}
             alt="side-bar-logo"
             height={28}
             width={180}
@@ -78,6 +78,8 @@ const SideBar = () => {
             <Button asChild className="button bg-black bg-cover">
               <Link href="/sign-in">Login</Link>
             </Button>
+            <h1 className="text-sm text-slate-500">"Desbloquea todo el potencial creativo de tus imágenes con Inteligencia Artificial. Edita fácilmente tus fotos en segundos. Experimenta con efectos únicos y sorprendentes. ¡Crea arte digital de manera rápida y sin esfuerzo!" <span className="text-slate-800">Disfruta ImagicAI</span>.</h1>
+           
           </SignedOut>
         </nav>
       </div>

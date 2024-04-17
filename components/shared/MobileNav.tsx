@@ -22,7 +22,7 @@ const MobileNav = () => {
     <header className="header">
       <Link href={"/"} className="flex items-center gap-2 md:py-2">
         <Image
-          src={"/assets/images/logo2-text.svg"}
+          src={"/logo.png"}
           alt="side-bar-logo"
           height={28}
           width={180}
@@ -80,7 +80,7 @@ const MobileNav = () => {
         </SignedIn>
 
         <SignedOut>
-            <Button asChild className="button bg-purple-gradient bg-cover">
+            <Button asChild className="button bg-black bg-cover">
               <Link href="/sign-in">Login</Link>
             </Button>
           </SignedOut>

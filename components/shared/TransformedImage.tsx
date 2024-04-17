@@ -32,6 +32,7 @@ const TransformedImage = ({
 
         {hasDownload && (
           <button className="download-btn" onClick={downloadHandler}>
+            <span className="text-slate-500">Download</span>
             <Image
               src="/assets/icons/download.svg"
               alt="Download"
