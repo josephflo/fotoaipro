@@ -78,7 +78,7 @@ const SideBar = () => {
             <Button asChild className="button bg-black bg-cover">
               <Link href="/sign-in">Login</Link>
             </Button>
-            <h1 className="text-sm text-slate-500">""Unlock the full creative potential of your images with Artificial Intelligence. Easily edit your photos in seconds. Experiment with unique and stunning effects. Create digital art quickly and effortlessly!"" <span className="text-slate-800">Enjoy ImagicAI</span>.</h1>
+            <h1 className="text-sm text-slate-500">"Unlock the full creative potential of your images with Artificial Intelligence. Easily edit your photos in seconds. Experiment with unique and stunning effects. Create digital art quickly and effortlessly!" <span className="text-slate-800">Enjoy ImagicAI</span>.</h1>
            
           </SignedOut>
         </nav>
